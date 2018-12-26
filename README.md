@@ -1,3 +1,3 @@
 # movie_booking
 The project is an online movie booking website where a user can register, login, and book tickets for a movie of their choice. The user can choose the language of the movie, the date and timings of the movie, the theatre in which they want to watch it and the seats of their choice after which the seats become unavailable for the next user. The bill is generated at the end.  Our project demonstrates the use of different web technologies through which we can make a web-page more dynamic.  
-<a href="https://docs.google.com/document/d/1YGr4ltsmtw51byYvjh03-SYOhmHaaqsmZAx-nDSdkWg/edit?usp=sharing"> Link To Write Up Describing The Project (Screenshots at the end) </a>
+<a href="https://docs.google.com/document/d/1YGr4ltsmtw51byYvjh03-SYOhmHaaqsmZAx-nDSdkWg/edit?usp=sharing"> Link To Write Up that  describes the Project (Screenshots at the end) </a>
