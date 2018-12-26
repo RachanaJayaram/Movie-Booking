@@ -1,0 +1,88 @@
+
+#container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+    height: 100%;
+    background-image: url("thumbnails/back1.jpg");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#form
+{
+    position: absolute;
+    background-color: rgb(29, 29, 29);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+    text-align: center;
+    width:30%;
+    top:20%;
+    left:450px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 3px 6px 6px rgba(24, 21, 21, 0.726);
+    font-size: 113%;
+}
+input
+{
+    width: 250px;
+    height: 25px;
+    border-radius:5px;
+    border: solid white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:5px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+input::placeholder
+{
+    text-align: center;
+}
+.button
+{
+    margin: 10px;
+    background-color: rgb(55, 7, 58);
+    border:0px;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.5s;
+    padding:15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#button1
+{
+    background-color: rgb(55, 7, 58);
+    margin-right: 10px;
+    border:0px;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.5s;
+    padding:15px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+#password
+{
+  padding-right:100px;
+  color:white;
+}

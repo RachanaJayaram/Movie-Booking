@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
+<link rel="stylesheet" type="text/css" href="login.css" >
+
+<title>find_locality</title> 
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script> 
+<script type="text/javascript"> 
+  var geocoder;
+
+  if (navigator.geolocation) 
+  {
+    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+  } 
+//Get the latitude and the longitude;
+function successFunction(position) 
+{
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    codeLatLng(lat, lng)
+}
+
+function errorFunction()
+{
+    alert("Geocoder failed using last known location.");
+    window.location="list.html";
+
+}
+
+  function initialize() 
+  {
+    geocoder = new google.maps.Geocoder();
+    //access the Google Maps API geocoding service within your code via the google.maps.Geocoder constructor object
+
+  }
+
+  function codeLatLng(lat, lng) 
+  {
+
+    var latlng = new google.maps.LatLng(lat, lng);
+    // initiates a request to the geocoding service
+    // GeocoderRequest object literal containing the input terms and a callback method to execute upon receipt of the response.
+    // The GeocoderRequest object literal contains the location field~lat long
+    geocoder.geocode({'latLng': latlng}, function(results, status)
+     {
+      if (status == google.maps.GeocoderStatus.OK) 
+      {
+        if (results[1]) 
+        {
+         console.log(results);
+        localStorage.setItem("city",results[4].formatted_address);
+        localStorage.setItem("locality",results[3].formatted_address);
+        console.log("done"+results[6].formatted_address+results[5].formatted_address+results[4].formatted_address+results[3].formatted_address);
+        window.location="list.html";
+
+
+        } 
+        else 
+        {
+          alert("No results found");
+          window.location="list.html";
+
+        }
+      } 
+      else
+       {
+        window.location="list.html";
+        }
+    });
+
+  }
+
+</script> 
+</head> 
+<body onload="initialize()"  background="back.jpg"> 
+
+</body> 
+</html> 

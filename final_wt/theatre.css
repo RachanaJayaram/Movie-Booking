@@ -1,0 +1,167 @@
+body
+{
+    background-color:rgb(45, 39, 46);
+}
+#trailer
+{
+    background-color: black;
+    height: 400px;
+    position: absolute;
+    left:0px;
+    right: 0px;
+    top:65px;
+}
+#title
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height: 65px;
+    background-color:rgb(47, 2, 51);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color: azure;
+    padding: 15px;
+    padding-top: 25px;
+    margin: 0px;
+    z-index: 1;
+}
+#date
+{
+    position: absolute;
+    top:465px;
+    left:0px;
+    right:0px;
+    background-color: rgb(0, 0, 0);
+    height:46px;
+    padding:7px;
+    padding-left:30px;
+    color: aliceblue;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#today
+{
+    float: left;
+    padding: 10px;
+    padding-bottom: 2px;
+    height:34px;
+    border-radius: 5px;
+    background-color: rgb(27, 27, 27);
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 10 10px 10px 0 rgba(223, 213, 213, 0.966), 10 10px 10px 10 rgba(240, 236, 236, 0.979);
+
+
+
+}
+#today:hover
+{
+    background-color: rgb(62, 14, 66);
+}
+#tomorrow
+{
+    float: left;
+    height:34px;
+    padding: 10px;
+    padding-bottom: 2px;
+
+    border-radius: 5px;
+    background-color: rgb(27, 27, 27);
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 10 10px 10px 0 rgba(83, 83, 83, 0.966), 10 10px 10px 10 rgba(83, 83, 83, 0.979);
+
+}
+#tomorrow:hover
+{
+    background-color: rgb(62, 14, 66);
+}
+
+#dayafter
+{
+    padding: 10px;
+    padding-bottom: 2px;
+    float: left;
+    height:34px;
+    border-radius: 5px;
+    background-color: rgb(27, 27, 27);
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 10 10px 10px 0 rgba(83, 83, 83, 0.966), 10 10px 10px 10 rgba(83, 83, 83, 0.979);
+
+
+}
+#dayafter:hover
+{
+    background-color: rgb(62, 14, 66);
+}
+#theatres
+{
+    position: absolute;
+    top:526px;
+    background-color:rgb(45, 39, 46);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divs
+{
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+    font-size:20px;
+    width: 1300px;
+    margin-left: 33px;
+    margin-top: 17px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-shadow: 10 10px 10px 0 rgba(83, 83, 83, 0.966), 10 10px 10px 10 rgba(83, 83, 83, 0.979);
+
+}
+.but
+{
+    background-color: white;
+    margin-right: 20px;
+    margin-left:20px;
+    margin-bottom: 2px;
+
+    padding: 14px;
+    border:2px solid  rgb(65, 192, 65);
+    border-radius: 12px;
+    font-size: 14px;
+    color:rgb(75, 161, 75);
+    transition-duration: 0.4s;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2), 0 3px 3px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+
+}
+.but:hover
+{
+    background-color:rgb(65, 192, 65);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);
+
+}
+.overbut
+{
+    background-color: white;
+    margin-right: 20px;
+    margin-left:20px;
+    margin-bottom: 2px;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 14px;
+    transition-duration: 0.8s;
+
+
+    border:2px solid  rgb(172, 171, 171);
+    color:rgb(180, 175, 175);
+
+}
+
+.overbut:hover
+{
+    background-color: rgb(172, 171, 171);
+    color: rgb(255, 255, 255);
+}

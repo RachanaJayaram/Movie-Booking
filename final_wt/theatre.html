@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pick your theatre</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="theatre.css" />
+  <script src="theatre.js"></script>
+  
+
+</head>
+
+<body onload=play_trailer()>
+    <div id="title">
+        <b>Movie Name</b>
+
+    </div>
+    <div id="trailer">
+        <iframe  id="vid" width="100%" height="400" src="" style=" position: absolute;left:-2px;right: 0px;top:27px;" >
+          </iframe>
+    </div>
+    <div id="date">
+          <div id="today" onclick="this_day(event)">
+                Today, 5 Nov 
+          </div>
+
+          <div id="tomorrow" onclick="this_day(event)">
+                Tom, 6 Nov 
+          </div>
+          <div id="dayafter" onclick="this_day(event)">
+                7 Nov  
+          </div>
+    </div>
+     
+    <div id="theatres">
+            <div id="divs" class="divs" >
+                <hr>
+                <p id="1">INOX:Garuda Mall, Magrath Road.
+                      <button id="b1" class="but" onclick="func(event)"><b>04:00PM</b></button>
+                      <button  id="b2"class="but" onclick="func(event)"><b>07:30PM</b></button>
+                      
+              </p>
+              <hr id="h1">
+
+              
+                <p id="2">PVR: Phoenix Marketcity Mall, Whitefield Road. 
+                      <button id="b3" class="but" onclick="func(event)"><b>11:00AM</b></button>
+                      <button id="b4" class="but" onclick="func(event)"><b>07:30PM</b></button>
+                </p>
+                <hr>
+             
+
+                <p id="3">Gopalan Cinemas: Arcade Mall, Mysore Road.           
+                      <button id="b5" class="but" onclick="func(event)"><b>10:00AM</b></button>
+                      <button id="b6" class="but" onclick="func(event)"><b>09:30PM</b></button>
+                </p>
+                <hr id="h3">
+
+              
+              
+                <p id="4">PVR: Forum Mall, Koramangala.
+                      <button id="b0" class="but" onclick="func(event)"><b>02:00PM</b></button>
+                </p>
+                <hr>
+
+              
+                <p id="5">PVR: Vega City, Bannerghatta Road.
+                      <button id="b7" class="but" onclick="func(event)"><b>12:30PM</b></button>
+                      <button id="b8" class="but" onclick="func(event)"><b>04:00PM</b></button>
+                      <button id="b9" class="but" onclick="func(event)"><b>07:30PM</b></button>  
+                </p>
+                <hr>
+
+
+                <p id="6">PVR: Orion Mall, Dr Rajkumar Road. 
+                      <button id="b15" class="but" onclick="func(event)"><b>7:30AM</b></button>
+                      <button id="b10" class="but" onclick="func(event)"><b>04:00PM</b></button>
+                      <button id= "b12" class="but" onclick="func(event)"><b>07:30PM</b></button>
+                </p>
+                <hr>
+
+              
+                <p id="7">PVR: Gold, Forum Mall, Koramangala.
+                      <button id="b13"class="but" onclick="func(event)"><b>10:00AM</b></button>
+                      <button id="b14" class="but" onclick="func(event)"><b>09:30PM</b></button>
+                </p>
+                <hr>
+
+              
+                <p id="8">PVR: Gold, Vega City, Bannerghatta Road.
+                      <button id="b11" class="but" onclick="func(event)"><b>04:00PM</b></button>
+                      <button id="b16" class="but" onclick="func(event)"><b>07:30PM</b></button>
+                </p>
+                <hr>
+              </div>
+
+    </div>
+    <br/>
+    
+  
+</body>
+</html>

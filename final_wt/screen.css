@@ -1,0 +1,146 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p{
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+#titlebar{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color:rgb(60, 4, 65); 
+    color: azure;
+    padding-bottom: 0px; 
+    padding-left: 20px; 
+    padding-top:10px;
+    line-height: 20px; 
+    margin: 0px;
+    z-index: 1;
+}
+#Number_of_tickets{
+
+    position: fixed;
+    right: 25px;
+    top:23px;
+    padding: 10px;  
+    font-size: 20px;
+    background-color:rgb(60, 4, 65); 
+    font: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+
+}
+#cost_of_tickets{
+
+    position: fixed;
+    right: 25px;
+    top:58px;
+    padding: 10px;  
+    font-size: 20px;
+    background-color:rgb(60, 4, 65); 
+    font: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+
+}
+#Date_and_time{
+    background-color: black;
+    position:fixed;
+    left:0px;
+    right:0px;
+    padding: 10px;
+    padding-left: 20px; 
+    z-index: 1;
+}
+#executive
+{
+    padding-left:110px;
+
+}
+#premium
+{
+    padding-left:110px;
+}
+#screen
+{
+    color: ghostwhite;
+    position: relative;
+    left: 110px;
+    background-color: rgb(77, 61, 76);
+    height:25px;
+    width:1040px;
+    text-align: center;
+    line-height: 20px;
+}
+.button{
+    border: 1px;border-color: dimgray;height:40px;width:40px;box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+}
+.button:hover
+{
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+
+.taken
+{
+    border: 1px;border-color: dimgray;height:40px;width:40px;box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    background-color: rgb(145, 145, 145);
+}
+.taken:hover
+{
+    background-color:rgb(196, 32, 32); /* Green */
+    color: white;
+
+}
+.selected
+{
+    
+    border: 1px;border-color: dimgray;height:40px;width:40px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    background-color: #4CAF50 !important; /* Green */
+    color: white;
+}
+
+#book
+{   
+    position: relative;
+    margin: 10px;
+    background-color: rgb(52, 52, 214);
+    border:0px;
+    border-radius: 3px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    left:43.8%;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.5s;
+
+
+}
+#book:hover
+{
+    background-color: rgb(40, 40, 180);
+
+    box-shadow: 0px 0px 0px 0 rgba(252, 252, 252, 0.2);
+}
+#bottom_dock
+{
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    position : fixed;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 3px 6px 3px rgba(0,0,0,0.2), 0 3px 6px 12px rgba(0,0,0,0.19);
+    align-content: center;
+    transition-duration: 1s;
+
+}
